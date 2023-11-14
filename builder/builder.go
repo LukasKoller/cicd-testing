@@ -8,7 +8,7 @@ import (
 	"dagger.io/dagger"
 )
 
-func build(ctx context.Context) error {
+func Build(ctx context.Context) error {
 	fmt.Println("Building with Dagger")
 
 	// initialize Dagger client
